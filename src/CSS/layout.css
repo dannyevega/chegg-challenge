@@ -1,0 +1,16 @@
+/*--------------------------------------------------------------
+Layouts
+--------------------------------------------------------------*/
+
+.centered {
+    margin: 0 auto;
+    padding: 0 1em;
+    background-color: #FFF;
+    height: 100vh;
+}
+
+@media screen and (min-width: 660px) {
+    .centered {
+        max-width: 660px;
+    }
+}
