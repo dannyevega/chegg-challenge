@@ -10,10 +10,7 @@ export default class DonationWidget extends Component {
       value: '',
       goal: 500,
       remainingForGoal: '',
-      currentDonations: [],
-      totalCampaignDays: '',
-      daysRemaining: '',
-      donors: ''
+      currentDonations: []
     }
   }
 

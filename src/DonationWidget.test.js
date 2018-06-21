@@ -14,15 +14,6 @@ describe("DonationWidget", () => {
     }
     return mountedDonationWidget;
   }
-
-  beforeEach(() => {
-    props = {
-      wallpaperPath: undefined,
-      userInfoMessage: undefined,
-      onUnlocked: undefined,
-    };
-    mountedDonationWidget = undefined;
-  });
   
   it("always renders a div", () => {
     const divs = donationWidget().find("div");
